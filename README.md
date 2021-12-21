@@ -196,6 +196,6 @@ high-resolution-conflict-forecasting/
 
 ### Citation
 
-Radford, Benjamin J. 2022. "High Resolution Conflict Forecasting with Spatial Convolutions and Long Short-Term Memory." `International Interactions`. 
+Radford, Benjamin J. 2022. "High Resolution Conflict Forecasting with Spatial Convolutions and Long Short-Term Memory." *International Interactions*. 
 
 
