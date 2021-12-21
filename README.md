@@ -71,7 +71,7 @@ These steps will reproduce all figures and tables from "High Resolution Conflict
 
 ## Full Replication from Scratch
 
-I **highly recommend** that you do not attempt to replicate all models from scratch. Doing so will take many days even with a relatively high performance computer with sufficient RAM (>= 64Gb) and GPU (>= RTX 2080 Ti). Furthermore, perfect replication results are not guaranteed due to (1) updates to the data provided by the ViEWS team during and after the competition and (2) differences that arise due to randomness while fitting the model in different hardware and software environments. 
+I **strongly recommend** that you do not attempt to replicate all models from scratch. Doing so will take many days even with a relatively high performance computer with sufficient RAM (>= 64Gb) and GPU (>= RTX 2080 Ti). Furthermore, perfect replication results are not guaranteed due to (1) updates to the data provided by the ViEWS team during and after the competition and (2) differences that arise due to randomness while fitting the model in different hardware and software environments. 
 
 If you are intent upon performing a full replication, begin by following steps 1 through 9 outlined above in the Setup section. Then, following the same procedure as in the Replication section, run all .ipynb files in the `./supplemental_replication_files` directory.
 
