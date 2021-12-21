@@ -61,6 +61,8 @@ I **strongly advise against** attempting a full replication from scratch. A full
 
 ## Replication
 
+Estimated completion time: 3--6 hours.
+
 These steps will reproduce all figures and tables from "High Resolution Conflict Forecasting with Spatial Convolutions and Long Short-Term Memory." I recommend starting here for replication purposes.
 
 1. Follow steps 1 through 7 outlined above in the Setup section.
@@ -70,6 +72,8 @@ These steps will reproduce all figures and tables from "High Resolution Conflict
 
 
 ## Full Replication from Scratch
+
+Estimated completion time: 48--96 hours.
 
 I **strongly recommend** that you do not attempt to replicate all models from scratch. Doing so will take many days even with a relatively high performance computer with sufficient RAM (>= 64Gb) and GPU (>= RTX 2080 Ti). Furthermore, perfect replication results are not guaranteed due to (1) updates to the data provided by the ViEWS team during and after the competition and (2) differences that arise due to randomness while fitting the model in different hardware and software environments. 
 
