@@ -40,6 +40,7 @@ I **strongly advise against** attempting a full replication from scratch. A full
 * **Required:** [Anaconda Python](https://www.anaconda.com)
 * **Required:** 64Gb of RAM. 128Gb preferable. 
 * **Required:** `data.part001.rar` through `data.part030.rar` from [Harvard Dataverse](https://doi.org/10.7910/DVN/DQKCA9).
+* **Required:** [OpenViEWS2](https://github.com/UppsalaConflictDataProgram/OpenViEWS2) [[1]](#hegre-etal-2019)
 * **Optional:** A GPU equivalent to or better than an RTX 2080 Ti. Only necessary for a full replication. See warnings in README before attempting.
 * **Optional:** `supplemental_data.part01.rar` through `supplemental_data.part43.rar` from [Harvard Dataverse](https://doi.org/10.7910/DVN/PD3XWV). Only necessary for a full replication. See warnings in this README before attempting.
 * **Optional:** Ubuntu 18.04. Note that the analyses have not been tested in other software environments.
@@ -210,3 +211,6 @@ high-resolution-conflict-forecasting/
 Radford, Benjamin J. 2022. "High Resolution Conflict Forecasting with Spatial Convolutions and Long Short-Term Memory." *International Interactions*. 
 
 
+## References
+
+<a name="hegre-etal-2019">1.</a> Hegre, Håvard, Marie Allansson, Matthias Basedau, Michael Colaresi, Mihai Croicu, Hanne Fjelde, Frederick Hoyles, et al. "ViEWS: A Political Violence Early-Warning System." *Journal of Peace Research* 56, no. 2 (March 2019): 155–74. https://doi.org/10.1177/0022343319823860.
