@@ -11,7 +11,18 @@ bradfor7@uncc.edu
 [Personal Website](https://www.benradford.com)  
 
 
-### Preface
+## Table of Contents
+
+* [Preface](#preface)
+* [Requirements](#requirements)
+* [Setup](#setup)
+* [Replication](#replication)
+* [Full Replication from Scratch](#full-replication-from-scratch)
+* [Directory Structure](#directory-structure)
+* [Citation](#citation)
+
+
+## Preface
 
 This repository contains replication code for the article "High Resolution Conflict Forecasting with Spatial Convolutions and Long Short-Term Memory" in *International Interactions* (2022). The paper describes an entry to the [Violence Early-Warning System (ViEWS) Prediction Competition](https://www.pcr.uu.se/research/views/news/?tarContentId=844492) held in 2020. The entry was a convolutional long short-term memory (ConvLSTM) solution to the challenge that ranked second in overall performance among all entrants.  
 
@@ -24,7 +35,7 @@ I **strongly recommend** that replication efforts start with the code found in t
 I **strongly advise against** attempting a full replication from scratch. A full replication can be undertaken by first running all files in `./supplemental_replication_files` and then all files in `./replication`. However, this may take many days of compute time (not counting any user time) on a relatively powerful desktop computer (>= 64Gb RAM) with a GPU (e.g., RTX 2080 Ti). Furthermore, perfect replication results are not guaranteed due to (1) updates to the data provided by the ViEWS team during and after the competition and (2) differences that arise due to randomness while fitting the model in different hardware and software environments.
 
 
-### Requirements
+## Requirements
 
 * **Required:** [Anaconda Python](https://www.anaconda.com)
 * **Required:** 64Gb of RAM. 128Gb preferable. 
@@ -34,7 +45,7 @@ I **strongly advise against** attempting a full replication from scratch. A full
 * **Optional:** Ubuntu 18.04. Note that the analyses have not been tested in other software environments.
 
 
-### Setup
+## Setup
 
 1. Download (clone) this repository to your local computer. If you have git installed, you can do this by running `git clone https://github.com/benradford/high-resolution-conflict-forecasting` in the terminal.
 2. Download (clone) [OpenViEWS2](https://github.com/UppsalaConflictDataProgram/OpenViEWS2.git) to your local computer. If you have git installed, you can do so by running `git clone https://github.com/UppsalaConflictDataProgram/OpenViEWS2.git` in the terminal.
@@ -47,7 +58,7 @@ I **strongly advise against** attempting a full replication from scratch. A full
 9. Use a rar utility to extract the contents of these files into the directory `high-resolution-conflict-forecasting/supplemental_data`. The directory tree can be found below to verify that the files are extracted in the correct place.
 
 
-### Replication
+## Replication
 
 These steps will reproduce all figures and tables from "High Resolution Conflict Forecasting with Spatial Convolutions and Long Short-Term Memory." I recommend starting here for replication purposes.
 
@@ -57,14 +68,14 @@ These steps will reproduce all figures and tables from "High Resolution Conflict
 4. Run all code chunks from top to bottom.
 
 
-### Full Replication from Scratch
+## Full Replication from Scratch
 
 I **highly recommend** that you do not attempt to replicate all models from scratch. Doing so will take many days even with a relatively high performance computer with sufficient RAM (>= 64Gb) and GPU (>= RTX 2080 Ti). Furthermore, perfect replication results are not guaranteed due to (1) updates to the data provided by the ViEWS team during and after the competition and (2) differences that arise due to randomness while fitting the model in different hardware and software environments. 
 
 If you are intent upon performing a full replication, begin by following steps 1 through 9 outlined above in the Setup section. Then, following the same procedure as in the Replication section, run all .ipynb files in the `./supplemental_replication_files` directory.
 
 
-### Directory Structure
+## Directory Structure
 
 Verify that your `views2020/` directory has the following structure. Note that the files contained within `./data` and `./supplemental_data` are provided separately via Harvard Dataverse.
 
@@ -194,7 +205,7 @@ high-resolution-conflict-forecasting/
 ```
 
 
-### Citation
+## Citation
 
 Radford, Benjamin J. 2022. "High Resolution Conflict Forecasting with Spatial Convolutions and Long Short-Term Memory." *International Interactions*. 
 
